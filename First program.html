@@ -34,6 +34,74 @@
    <div align="center">
     <img src="coding.jpeg" alt="coding" width="400" height="200" title="coding" border="10">
   </div>
-    <iframe width="560" height="315" src="https://ideone.com/" style="float:none"></iframe>  
-
+    <iframe width="560" height="315" src="https://ideone.com/" style="float:none"></iframe><br/>
+   
+    <table border="5" height="200" width="400">
+        <caption> My detailes </caption>
+        <colgroup>
+            <col span="3" style="background-color:yellow">  
+        </colgroup>
+        <thead style="background-color:blue;">
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr align="center">
+                <td>1</td>
+                <td>Raihan</td>
+                <td>21</td>
+            </tr>
+            <tr align="center">
+                <td>2</td>
+                <td>Mostafa</td>
+                <td>21</td>
+            </tr>
+    </table>
+    <h1>Registration Form</h1>
+    <form>
+        <div>
+            <label for="fullname">FullName:</label><input type="text" name="fullname" id="fullname" required>
+        </div><br/>
+        <div>
+            <label for="email">Email:</label><input type="email" name="email" id="email" required>
+        </div><br/>
+        <div>
+            <label for="password">Password:</label><input type="password" name="password" id="password" required>
+        </div><br/>
+        <div>
+            <label for="dob">Date Of Birth:</label><input type="date" name="dob" id="dob" required>
+        </div><br/>
+        <div>
+            <label for="photo">Choose a picture:</label><input type="file" name="photo" id="photo" required>
+        </div><br/>
+        <div>
+            <label for="gender">Gender:</label required>
+            <input type="radio" name="gender" id="gender" value="male">Male
+            <input type="radio" name="gender" id="gender" value="female">female
+        </div><br/>
+        <div>
+            <label for="religion">Religion:</label required>
+            <input type="radio" name="religion" id="religion" value="islam">Islam
+            <input type="radio" name="religion" id="religion" value="hindu">Hindu
+        </div><br/>
+        <div>
+            <label for="department">Deprtment:</label required>
+            <select name="department" id="department">
+                <option value="cse">CSE</option>
+                <option value="eee">EEE</option>
+                <option value="bba">BBA</option>
+            </select>
+        </div><br/>
+        <div>
+            <label for="message">Message:</label><br/>
+            <textarea id="message" name="message" cols="30" rows="10"></textarea>
+        </div><br/>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </div><br/>
+        
+    </form>
+</body>
 </html>
